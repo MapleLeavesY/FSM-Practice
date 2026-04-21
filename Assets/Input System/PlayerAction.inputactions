@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "PlayerAction",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1c62c8cd-8c9f-461c-a4ac-5fea30388dcd",
+            "actions": [
+                {
+                    "name": "Move_Key",
+                    "type": "Value",
+                    "id": "19bead7c-7dac-4cb6-b4d3-5942deca4d64",
+                    "expectedControlType": "Vector2",
+                    "processors": "NormalizeVector2",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "692efb46-577b-47b8-bef8-c52544081fe8",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move_Key",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
