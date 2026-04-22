@@ -640,9 +640,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 761697057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecb2abae209a2df4296841df0bed4b4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3894148cd52a04349b575b9a6e02d2d0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterController.PlayerManager
+  m_EditorClassIdentifier: Assembly-CSharp::MoveManager
 --- !u!114 &761697062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,12 +652,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 761697057}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77c0dc01ac9fe484cbb18ae663473953, type: 3}
+  m_Script: {fileID: 11500000, guid: 1bfba8e293114da499e819a6b08d650e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerState.StateManager
-  _playerManager: {fileID: 0}
-  IsAir: 0
-  IsGround: 0
+  moveManager: {fileID: 0}
 --- !u!1 &1161854097
 GameObject:
   m_ObjectHideFlags: 0
