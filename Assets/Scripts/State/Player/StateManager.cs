@@ -7,8 +7,6 @@ namespace PlayerState
         [HideInInspector] public State currentState;
         [HideInInspector] public Factory factory;
         [HideInInspector] public MoveManager moveManager; 
-        private bool _isGround = true;
-        private bool _isAir = false;
         private void Awake()
         {
             moveManager = GetComponent<MoveManager>();
@@ -28,13 +26,6 @@ namespace PlayerState
             currentState = newState;
             currentState.Enter();
         }
-        public bool GetIsGround()
-        {
-            return _isGround;
-        }
-        public bool GetIsAir()
-        {
-            return _isAir;
-        }
+
     }
 }
